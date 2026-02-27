@@ -7,6 +7,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.use("/health", require("./routes/health.route"));
+app.use("/demo", require("./routes/demo.route"));
+
 // ===== Health check =====
 app.get("/health", (req, res) => {
   res.json({
@@ -15,9 +18,6 @@ app.get("/health", (req, res) => {
     time: new Date().toISOString()
   });
 });
-
-app.use("/health", require("./routes/health.route"));
-app.use("/demo", require("./routes/demo.route"));
 
 // ===== Sample API =====
 app.get("/api/projects", (req, res) => {
@@ -34,7 +34,5 @@ app.get("/api/projects", (req, res) => {
     }
   ]);
 });
-
-
 
 module.exports = app;
