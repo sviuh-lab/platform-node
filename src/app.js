@@ -9,6 +9,7 @@ app.use(express.json());
 
 app.use("/health", require("./routes/health.route"));
 app.use("/demo", require("./routes/demo.route"));
+app.use("/", require("./routes/root.route"));
 
 // ===== Health check =====
 app.get("/health", (req, res) => {
