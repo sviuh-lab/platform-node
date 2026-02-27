@@ -17,6 +17,7 @@ app.get("/health", (req, res) => {
 });
 
 app.use("/health", require("./routes/health.route"));
+app.use("/demo", require("./routes/demo.route"));
 
 // ===== Sample API =====
 app.get("/api/projects", (req, res) => {
