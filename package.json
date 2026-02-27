@@ -1,1 +1,17 @@
-
+{
+  "name": "openlab-platform-node",
+  "version": "0.1.0",
+  "description": "OpenLab Platform - Backend mẫu cho dự án sinh viên & startup",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
