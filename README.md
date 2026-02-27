@@ -20,13 +20,15 @@ Dùng làm nền tảng cho các dự án sinh viên, đổi mới sáng tạo v
 - CI/CD: **GitHub → Cloud Build**
 - Domain mẫu:  
   - API: `https://api.lab.sviuh.net`
-  - Frontend (sau): `https://lab.sviuh.net`
+  - Frontend: `https://lab.sviuh.net`
 
 ---
 
 ## 🚀 Chạy local
+```bash
 npm install
 npm run dev
+```
 Mặc định chạy tại: http://localhost:8080
 
 ---
@@ -53,7 +55,7 @@ Deploy qua Cloud Run → Deploy from GitHub repository
 
 ---
 
-🧠 Triết lý Lab
+## 🧠 Triết lý Lab
 Làm sản phẩm chạy thật, dùng cloud thật, theo quy trình thật.
 
 © SVIUH Startup Lab
