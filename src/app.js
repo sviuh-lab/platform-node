@@ -16,6 +16,8 @@ app.get("/health", (req, res) => {
   });
 });
 
+app.use("/health", require("./routes/health.route"));
+
 // ===== Sample API =====
 app.get("/api/projects", (req, res) => {
   res.json([
@@ -31,5 +33,7 @@ app.get("/api/projects", (req, res) => {
     }
   ]);
 });
+
+
 
 module.exports = app;
