@@ -29,43 +29,31 @@ Dùng làm nền tảng cho các dự án sinh viên, đổi mới sáng tạo v
 ```bash
 npm install
 npm run dev
-
 Mặc định chạy tại: http://localhost:8080
 
-**## 👩‍🎓 Dành cho sinh viên – Cách làm đề tài**
-
-Fork repo này
-
-Đổi tên repo theo đề tài
-
-Phát triển thêm API cho đề tài của bạn
-
-Deploy lên Google Cloud Run
-
-Xin cấp subdomain riêng (ví dụ):
-
-api.netmovie.lab.sviuh.net
-api.edulink.lab.sviuh.net
-
+## 👩‍🎓 Dành cho sinh viên – Cách làm đề tài
+1. Fork repo này
+2. Đổi tên repo theo đề tài
+3. Phát triển thêm API cho đề tài của bạn
+4. Deploy lên Google Cloud Run
+5. Xin cấp subdomain riêng (ví dụ):
+    api.netmovie.lab.sviuh.net
+    api.edulink.lab.sviuh.net
 👉 Mỗi đề tài = 1 service + 1 subdomain
 
-📦 Deploy (Cloud Run)
+---
 
+## 📦 Deploy (Cloud Run)
 Yêu cầu:
-
-Repo GitHub
-
-Google Cloud project có billing
-
-Cloud Run + Cloud Build bật sẵn
-
+  - Repo GitHub
+  - Google Cloud project có billing
+  - Cloud Run + Cloud Build bật sẵn
 Deploy qua Cloud Run → Deploy from GitHub repository
 (đã cấu hình sẵn cho template này)
 
-🧠 Triết lý Lab
+---
 
-Không chấm bài.
-Không code cho có.
+🧠 Triết lý Lab
 Làm sản phẩm chạy thật, dùng cloud thật, theo quy trình thật.
 
 © SVIUH Startup Lab
