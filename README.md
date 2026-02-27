@@ -25,11 +25,11 @@ Dùng làm nền tảng cho các dự án sinh viên, đổi mới sáng tạo v
 ---
 
 ## 🚀 Chạy local
-
-```bash
 npm install
 npm run dev
 Mặc định chạy tại: http://localhost:8080
+
+---
 
 ## 👩‍🎓 Dành cho sinh viên – Cách làm đề tài
 1. Fork repo này
